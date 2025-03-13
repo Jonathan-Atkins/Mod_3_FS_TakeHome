@@ -1,0 +1,34 @@
+{
+  "data": {
+    "id": "2",
+    "type": "subscription",
+    "attributes": {
+      "title": "Quarterly Black Tea Box",
+      "price": "25.99",
+      "canceled": false,
+      "frequency": 63113904
+    },
+    "relationships": {
+      "teas": {
+        "data": [
+          {
+            "id": "2",
+            "type": "tea"
+          },
+          {
+            "id": "3",
+            "type": "tea"
+          }
+        ]
+      },
+      "customers": {
+        "data": [
+          {
+            "id": "2",
+            "type": "customer"
+          }
+        ]
+      }
+    }
+  }
+}

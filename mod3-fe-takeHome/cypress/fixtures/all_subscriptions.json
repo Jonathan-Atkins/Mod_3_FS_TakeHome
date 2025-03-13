@@ -1,0 +1,187 @@
+{
+  "data": [
+    {
+      "id": "2",
+      "type": "subscription",
+      "attributes": {
+        "title": "Quarterly Black Tea Box",
+        "price": "25.99",
+        "canceled": false,
+        "frequency": 63113904
+      },
+      "relationships": {
+        "teas": {
+          "data": [
+            { "id": "2", "type": "tea" },
+            { "id": "3", "type": "tea" }
+          ]
+        },
+        "customers": {
+          "data": [{ "id": "2", "type": "customer" }]
+        }
+      }
+    },
+    {
+      "id": "3",
+      "type": "subscription",
+      "attributes": {
+        "title": "Bi-Annual Oolong Tea Box",
+        "price": "29.99",
+        "canceled": false,
+        "frequency": 15778476
+      },
+      "relationships": {
+        "teas": {
+          "data": [{ "id": "5", "type": "tea" }]
+        },
+        "customers": {
+          "data": [{ "id": "3", "type": "customer" }]
+        }
+      }
+    },
+    {
+      "id": "4",
+      "type": "subscription",
+      "attributes": {
+        "title": "Monthly Chai Tea Box",
+        "price": "19.99",
+        "canceled": false,
+        "frequency": 2629746
+      },
+      "relationships": {
+        "teas": {
+          "data": [{ "id": "7", "type": "tea" }]
+        },
+        "customers": {
+          "data": [{ "id": "4", "type": "customer" }]
+        }
+      }
+    },
+    {
+      "id": "5",
+      "type": "subscription",
+      "attributes": {
+        "title": "Quarterly Herbal Tea Box",
+        "price": "23.99",
+        "canceled": false,
+        "frequency": 7889238
+      },
+      "relationships": {
+        "teas": {
+          "data": [{ "id": "4", "type": "tea" }]
+        },
+        "customers": {
+          "data": [{ "id": "5", "type": "customer" }]
+        }
+      }
+    },
+    {
+      "id": "6",
+      "type": "subscription",
+      "attributes": {
+        "title": "Monthly Jasmine Tea Box",
+        "price": "16.49",
+        "canceled": false,
+        "frequency": 2629746
+      },
+      "relationships": {
+        "teas": {
+          "data": [{ "id": "6", "type": "tea" }]
+        },
+        "customers": {
+          "data": [{ "id": "6", "type": "customer" }]
+        }
+      }
+    },
+    {
+      "id": "7",
+      "type": "subscription",
+      "attributes": {
+        "title": "Bi-Annual Pu-erh Tea Box",
+        "price": "35.99",
+        "canceled": false,
+        "frequency": 15778476
+      },
+      "relationships": {
+        "teas": {
+          "data": [{ "id": "10", "type": "tea" }]
+        },
+        "customers": {
+          "data": [{ "id": "7", "type": "customer" }]
+        }
+      }
+    },
+    {
+      "id": "8",
+      "type": "subscription",
+      "attributes": {
+        "title": "Monthly Mint Tea Box",
+        "price": "18.99",
+        "canceled": false,
+        "frequency": 2629746
+      },
+      "relationships": {
+        "teas": {
+          "data": [{ "id": "6", "type": "tea" }]
+        },
+        "customers": {
+          "data": [{ "id": "8", "type": "customer" }]
+        }
+      }
+    },
+    {
+      "id": "9",
+      "type": "subscription",
+      "attributes": {
+        "title": "Quarterly Chamomile Tea Box",
+        "price": "27.99",
+        "canceled": false,
+        "frequency": 7889238
+      },
+      "relationships": {
+        "teas": {
+          "data": [{ "id": "3", "type": "tea" }]
+        },
+        "customers": {
+          "data": [{ "id": "9", "type": "customer" }]
+        }
+      }
+    },
+    {
+      "id": "10",
+      "type": "subscription",
+      "attributes": {
+        "title": "Monthly Earl Grey Tea Box",
+        "price": "22.99",
+        "canceled": false,
+        "frequency": 2629746
+      },
+      "relationships": {
+        "teas": {
+          "data": [{ "id": "8", "type": "tea" }]
+        },
+        "customers": {
+          "data": [{ "id": "10", "type": "customer" }]
+        }
+      }
+    },
+    {
+      "id": "1",
+      "type": "subscription",
+      "attributes": {
+        "title": "Monthly Green Tea Box",
+        "price": "15.99",
+        "canceled": true,
+        "frequency": 2629746
+      },
+      "relationships": {
+        "teas": {
+          "data": [{ "id": "1", "type": "tea" }]
+        },
+        "customers": {
+          "data": [{ "id": "1", "type": "customer" }]
+        }
+      }
+    }
+  ]
+}

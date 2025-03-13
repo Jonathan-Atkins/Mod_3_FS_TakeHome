@@ -1,0 +1,10 @@
+.filter {
+  display: flex;
+  padding: 46px;
+  position: relative;
+  z-index: 10;
+  justify-content: center;
+  align-items: center;
+  background-color: #050505;
+  filter: brightness(0.8); /* Example filter effect */
+}
