@@ -6,7 +6,7 @@ function SubPoster({ id, title }) {
   return (
     <Link to={`/${id}`}>
       <section className="sub-poster">
-        <h3>{ title }</h3>
+        <h3> 🍵 { title }</h3>
     </section>
     </Link>
   );

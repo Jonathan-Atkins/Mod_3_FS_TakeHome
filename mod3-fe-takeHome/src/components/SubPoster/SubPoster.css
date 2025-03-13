@@ -1,3 +1,11 @@
 .sub-poster h3 {
   margin-bottom: 20px; /* Adjust the value to increase or decrease spacing */
+  font-family: 'Crimson Pro', serif;
+  font-size: 32px;
+  place-self: anchor-center
+}
+
+.sub-poster{
+  padding-bottom: 5px;
+  max-width: 100%; /* Prevents it from being too wide */
 }
