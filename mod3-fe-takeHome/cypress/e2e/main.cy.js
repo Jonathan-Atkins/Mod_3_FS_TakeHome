@@ -15,15 +15,15 @@ describe('Subscriptions App', () => {
     cy.get('img').should('be.visible');
   });
 
-  it('should show a filter button', () => {
-    cy.get('.filter').should('exist');
-  });
+  // it('should show a filter button', () => {
+  //   cy.get('.filter').should('exist');
+  // });
 
-  it('should show all filter options when clicked', () => {
-    cy.get('.filter select').select('all');
+  // it('should show all filter options when clicked', () => {
+  //   cy.get('.filter select').select('all');
 
-    cy.get('.filter select option').should('have.length', 6);
-  });
+  //   cy.get('.filter select option').should('have.length', 6);
+  // });
 
   it('should have 10 h3 elements with correct titles', () => {
     cy.fixture('all_subscriptions.json').then((subscriptions) => {

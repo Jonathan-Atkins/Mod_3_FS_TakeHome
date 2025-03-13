@@ -15,9 +15,9 @@ function Homepage({ subscriptions }) {
 
   const filteredSubscriptions = subscriptions.filter((subscription) => {
     switch (filter) {
-      case "canceled_true":
+      case "Inactive":
         return subscription.attributes.canceled === true;
-      case "canceled_false":
+      case "Active":
         return subscription.attributes.canceled === false;
       case "no_customers":
         return subscription.relationships.customers.data.length === 0;
@@ -50,11 +50,11 @@ function Homepage({ subscriptions }) {
   return (
     <section className="SubsContainer">
       <div className="filter">
-        <bold><label htmlFor="filter">Filter Subscriptions : </label></bold>
+        <strong><label htmlFor="filter">Filter Subscriptions : </label></strong>
         <select id="filter" value={filter} onChange={handleFilterChange}>
           <option value="all">All</option>
-          <option value="canceled_true">Canceled (True)</option>
-          <option value="canceled_false">Canceled (False)</option>
+          <option value="Active">Active</option>
+          <option value="Inactive">Inactive</option>
           <option value="no_customers">No Customers</option>
           <option value="customers_present">Customers Present</option>
           <option value="price_low_to_high">Price: Low to High</option>
